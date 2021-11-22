@@ -1,26 +1,45 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
+    font: sans-serif;
 }
 
 body{
     padding: 0;
     margin: 0;
-    display:flex;
     background-color: #fff;
 }
-.page-top {
-    flex-wrap: nowrap;
-    width:100%;
+header {
+    vertical-align: bottom;
+    padding: 25px;
 }
 .ta-left {
-    text-align: left;
+    display: inline;
+    margin: 0;
 }
 .ta-right {
-    text-align: right;
+    float: right;
+    margin: 0;
 }
 .main-stuff {
-    flex-wrap: wrap;
-    max-width: 60%;
-    padding: 25px;
-    margin: 25%;
+    text-align: center;
+    padding: 50px;
+}
+.questions {
+    display: grid;
+    margin: 25px;
+    display: none;
+}
+.btn {
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px 20px;
+    width: 180px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: plum;
 }
