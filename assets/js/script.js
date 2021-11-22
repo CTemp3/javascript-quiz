@@ -1,10 +1,16 @@
 // initial variable declaration
-var startbtn = document.getElementById('start-btn')
-var 
+var startButton = document.getElementById('start-btn');
+var questionSectionEl = document.getElementById('question-section');
+
+var questionEl = ['Which of the following is considered a string?', 'What will console.log(quizAnswerEl) do?'];
+
+console.log(questionEl);
 
 // quiz start function
 var startQuiz = function() {
-
+    startButton.classList.add('hide');
+    questionSectionEl.classList.remove('hide');
+    
 }
 
 // question change function
@@ -25,3 +31,5 @@ var rightOrWrong = function() {
 var timer = function() {
 
 }
+
+startButton.addEventListener("click", startQuiz)
