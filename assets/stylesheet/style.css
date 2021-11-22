@@ -1,0 +1,26 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    background-color: #fff;
+}
+.page-top {
+    flex-wrap: nowrap;
+    width:100%;
+}
+.ta-left {
+    text-align: left;
+}
+.ta-right {
+    text-align: right;
+}
+.main-stuff {
+    flex-wrap: wrap;
+    max-width: 60%;
+    padding: 25px;
+    margin: 25%;
+}
